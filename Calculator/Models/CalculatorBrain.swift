@@ -66,8 +66,6 @@ public class CalculatorBrain {
     let button: CalculatorButtons = button
     var result: String = result
 
-
-
     switch button {
     case .add, .subtract, .multiply, .divide, .equal, .percent:
       count += 1
